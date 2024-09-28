@@ -1,17 +1,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2A2D34   ;
-  --secondary-color: #009DDC ;
+  --primary-color: #2A2D34;
+  --secondary-color: #009DDC;
   --accent1-color: #FF6700;
   --accent2-color: #E5F3ff;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
+  --heading-font: "Roboto Mono";
   --paragraph-font: Open Sans, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -19,7 +19,7 @@ Fonts are separated by a & */
   --headline-color-on-color: #E5F3ff; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #396E94;
   --nav-link-color: #2A2D34;
   --nav-background-color: #009DDC;
   --nav-hover-link-color: #E5F3ff;
