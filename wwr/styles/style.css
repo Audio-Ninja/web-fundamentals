@@ -1,5 +1,6 @@
 body {
     background-color: #e5f3ff;
+    margin: 0;
 }
 #container {
     max-width: 1600px;
