@@ -1,4 +1,6 @@
-root {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono');
+
+:root {
     --primary-dark: #2a2d34;
     --primary-light: #e5f3ff;
     --accent-color: #2b6c9b;
@@ -7,6 +9,7 @@ root {
 body {
     background-color: var(--primary-light);
     margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;;
 }
 #content {
     max-width: 1600px;
@@ -71,4 +74,7 @@ footer p a:hover {
 }
 #hero-img {
     width: 100%;
+}
+.home-title {
+    font-family: 'Roboto Mono', 'Courier New', monospace;
 }
