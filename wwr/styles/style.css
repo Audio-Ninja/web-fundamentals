@@ -47,6 +47,9 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+#active {
+    background-color: var(--accent-color);
+}
 nav a:hover {
     background-color: var(--primary-dark);
 }
@@ -104,7 +107,7 @@ footer .social img {
 .home-title {
     font-family: 'Orbitron', 'Courier New', monospace;
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .msg p {
     font-size: 0.8em;
@@ -173,6 +176,50 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* Start styles specific to rivers page */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    align-items: center;
+    row-gap: 100px;
+}
+#rivers-title {
+    font-family: 'Orbitron', 'Courier New', monospace;
+    font-size: 3em;
+    margin-top: 80px;
+    color: black !important;
+}
+#spacer-color {
+    background-color: var(--accent-color);
+    grid-column: 1 / 12;
+    height: 80px;
+    margin-top: -8px;
+}
+#spacer {
+    grid-column: 1 / 12;
+}
+.river-img-container {
+    grid-column: 2 / 6;
+    width: 100%;
+}
+.river-text {
+    grid-column: 7 / 11;
+    height: 100%;
+}
+.river-img {
+    width: 100%;
+}
+.river-text h2 {
+    font-size: 1.2em;
+}
+.river-text p {
+    font-size: 0.8em;
+}
+
+/* End Styles specific to rivers page */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
