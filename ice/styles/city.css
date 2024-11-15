@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    background-color: black;
+}
+#box {
+    grid-column: 2 / 3;
+    background-color: white;
+    width: 100%;
+    height: 96vh;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 0.3fr 2fr 0.4fr 0.5fr;
+    justify-items: center;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    grid-row: 1 / 2;
+}
+h1 {
+    font-family: sans-serif;
+}
+#txt {
+    padding: 40px;
+}
+footer {
+    background-color: navy;
+    grid-row: 6 / 7;
+    height: 100%;
+    width: 100%;
+}
