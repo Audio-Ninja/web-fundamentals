@@ -9,15 +9,13 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="images/logo.png" alt="The Pizza Pioneers logo">
+            <img id="logo" src="images/logo.png" alt="The Pizza Pioneers logo">
         </a>
         <nav>
             <a id="active" href="index.html">Home</a>
             <a href="menu.html">Menu</a>
             <a href="faqs.html">FAQs</a>
-            <div class="button">
-                <a href="#">Order Now</a>
-            </div>
+            <a class="button" href="#">Order Now</a>
         </nav>
         <a id="account" href="#">
             <p>Sign In</p>
@@ -25,70 +23,67 @@
         </a>
     </header>
     <div id="home-hero">
-        <img id="hero-img" src="images/dough.jpg" alt="Lumps of pizza dough">
+        <div id="spacer"></div>
+        <div id="hero-wrapper">
+            <img id="hero-img" src="images/dough.jpg" alt="Lumps of pizza dough">    
+        </div>
         <section id="hero-msg">
             <h1 id="hero-title">Pioneering the Ways of Pizza</h1>
             <p id="hero-text">Our mission at The Pizza Pioneers is to provide delicious, healthy, food at the time
             and place you need it. Make an order Online, by call, or over the counter at one of our locations.</p>
-            <div class="button">
-                <a href="#">Place an Order</a>
-            </div>
+            <a class="button" href="#">Place an Order</a>
         </section>
     </div>
     <main id="home-grid">
-        <h2>We've Got More Than Just Great Pizza</h2>
-        <section>
-            <img src="images/calzone.jpg" alt="Image of a calzone">
+        <h2 class="header1">We've Got More Than Just Great Pizza</h2>
+        <section id="calzone">
+            <img class="food-img" src="images/calzone.jpg" alt="Image of a calzone">
             <h4>Calzones</h4>
         </section>
-        <section>
-            <img src="images/pasta.jpg" alt="pasta with cheese and tomatoes in a bowl">
+        <section id="pasta">
+            <img class="food-img" src="images/pasta.jpg" alt="pasta with cheese and tomatoes in a bowl">
             <h4>Pasta</h4>
         </section>
-        <section>
-            <img src="images/cookies.jpg" alt="Chocolate chip cookies">
+        <section id="desserts">
+            <img class="food-img" src="images/cookies.jpg" alt="Chocolate chip cookies">
             <h4>Desserts</h4>
         </section>
-        <div class="button">
-            <a href="menu.html">See Full Menu</a>
-        </div>
-        <h2>Get Your Order Through:</h2>
-        <section>
+        <a class="button" id="see-menu" href="menu.html">See Full Menu</a>
+        <h2 class="header2">Get Your Order Through:</h2>
+        <section id="pickup">
             <img src="images/pizza-box.jpg" alt="image of a pizza in an open pizza box">
             <h3>Pickup</h3>
-            <p>Order online, then pick up your food from a location of your choice. We often have pizzas hot-and-ready, 
-            so we can still help you if you're in a hurry!</p>
+            <p>Order online, then pick up your food from a location of your choice. We often have 
+            pizzas hot-and-ready, so we can still help you if you're in a hurry!</p>
         </section>
-        <section>
+        <section id="delivery">
             <img src="images/truck.jpg" alt="image of a pickup truck">
             <h3>Delivery</h3>
-            <p>Fresh food delivered to your home, or wherever else you need it to be. Order now through our
-            nearest location! A small delivery charge is applied.
+            <p>Fresh food delivered to your home, or wherever else you need it to be. Order 
+            now through our nearest location! A small delivery charge is applied.
             </p>
         </section>
-        <section>
-            <img src="images/pizza.jpg" alt="Image of a pizza">
+        <div id="wrapper">
+            <img id="rewards-img" src="images/pizza.jpg" alt="Image of a pizza">    
+        </div>
+        <section id="rewards">
             <h2>Discover Delicious With Pioneer Rewards</h2>
-            <p>Create an account to gain points toward free food, receive updates for incoming deals, and more!
-            get 50% off your first order after signing up!</p>
-            <div class="button">
-                <a href="#">Sign Up for Free</a>
-            </div>
+            <p>Create an account to gain points toward free food, receive updates for incoming deals, 
+            and more! Add a free large two-topping pizza to your first order after signing up!</p>
+            <a class="button" href="#">Sign Up for Free</a>
         </section>
     </main>
     <footer>
-        <div id="home-footer-bar">
+        <div id="footer-bar">
             <a href="index.html">
-                <img src="images/logo.png" alt="The Pizza Pioneers logo">
+                <img id="logo" src="images/logo.png" alt="The Pizza Pioneers logo">
             </a>
-            <nav>
-                <a href="faqs.html">FAQs</a>
-                <a href="menu.html">Menu</a>
-                <a href="#">Nutrition</a>
-                <a href="#">About Us</a>
-                <a href="site-plan.html">Site Plan</a>
-                <a href="#">Feedback</a>
-            </nav>
+            <a class="footer-link" href="faqs.html">FAQs</a>
+            <a class="footer-link" href="menu.html">Menu</a>
+            <a class="footer-link" href="#">Nutrition</a>
+            <a class="footer-link" href="#">About Us</a>
+            <a class="footer-link" href="site-plan.html">Site Plan</a>
+            <a class="footer-link" href="#">Feedback</a>
             <div id="social">
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/insta.svg" alt="instagram icon">
