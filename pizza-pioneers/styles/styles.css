@@ -23,11 +23,11 @@ header {
     box-shadow: 0px 5px 6px #888;
     z-index: 1;
 }
-#logo {
+.logo {
     width: 100%;
     margin-bottom: -4px;
 }
-header #logo {
+header .logo {
     margin-top: -4px;
 }
 #home-hero {
