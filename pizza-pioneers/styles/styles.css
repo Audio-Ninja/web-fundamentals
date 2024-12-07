@@ -233,6 +233,36 @@ h4 {
     height: 100%;    
 }
 
+/* Styles specific to Menu page */
+
+#menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 70px;
+    column-gap: 5%;
+    row-gap: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+}
+#menu-banner {
+    margin-top: 170px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+#menu-banner h1 {
+    font-size: 3.5em;
+}
+#menu-header{
+    margin-top: -170px;
+}
+#menu-banner p {
+    font-size: 1.2em;
+}
+
 /* Styles specific to FAQs page */
 
 .collapsible {
@@ -258,4 +288,10 @@ h4 {
 }
 #faqs-grid {
     margin-bottom: 120px;
+}
+
+@media screen and (max-width: 865px) {
+    #menu-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
