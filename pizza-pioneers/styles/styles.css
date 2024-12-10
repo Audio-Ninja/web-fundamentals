@@ -297,7 +297,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
 }
-#faqs-grid section {
+.faqs-box {
     grid-column: 2 / 3;
 }
 #faqs-hero {
