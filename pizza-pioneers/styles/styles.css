@@ -217,10 +217,7 @@ header .button {
 }
 #hero-text {
     font-size: 1.5em;
-    margin-bottom: 30px;
-}
-#home-hero .button {
-    margin-top: 20px;
+    margin-bottom: 55px;
 }
 .food-img {
     transition: transform .5s;
@@ -325,5 +322,13 @@ h4 {
     }
     #footer-bar .logo, #footer-logo {
         display: none;
+    }
+    nav a {
+        padding: 55px 40px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #footer-bar {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
