@@ -319,4 +319,11 @@ h4 {
     #menu-grid {
         grid-template-columns: 1fr 1fr;
     }
+    #footer-bar {
+        grid-template-columns: repeat(6, 1fr);
+        height: 75px;
+    }
+    #footer-bar .logo, #footer-logo {
+        display: none;
+    }
 }
