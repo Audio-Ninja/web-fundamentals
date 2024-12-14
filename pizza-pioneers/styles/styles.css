@@ -163,7 +163,7 @@ nav a {
     text-decoration: none;
     margin: -2px;
 }
-nav a:hover {
+#main-nav a:hover {
     background-color: var(--color3) !important;
     color: white;
 }
@@ -217,7 +217,7 @@ header .button {
 }
 #hero-text {
     font-size: 1.5em;
-    margin-bottom: 55px;
+    margin-bottom: 60px;
 }
 .food-img {
     transition: transform .5s;
@@ -311,6 +311,9 @@ h4 {
     text-align: center;
     font-size: 7vw;
 }
+#mobile-nav {
+    display: none;
+}
 
 @media screen and (max-width: 865px) {
     #menu-grid {
@@ -322,13 +325,111 @@ h4 {
     }
     #footer-bar .logo, #footer-logo {
         display: none;
+    }   
+    .page-link {
+        display: none;
     }
-    nav a {
-        padding: 55px 40px;
+    header {
+        grid-template-columns: 90px 2fr 1fr;
+    }
+    #mobile-nav {
+        grid-column: 1 / 4;
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--color4);
+    }
+    #mobile-nav a {
+        padding: 10px;
+        text-decoration: underline;
+    }
+    #mobile-nav a:hover{
+        text-decoration: none;
+    }
+    #menu-banner {
+        margin-top: 150px;
+    }
+    #menu-header{
+        margin-top: -150px;
+    }
+    #menu-grid {
+        row-gap: 1%;
+    }
+    #home-hero {
+        grid-template-columns: 1fr;
+    }
+    #hero-img {
+        width: 100%;
+        height: auto;
+    }
+    #hero-msg {
+        padding: 0 5%;
+        text-align: center;
+    }
+    #spacer {
+        grid-column: 1 / 2;
+    }
+    #hero-title {
+        margin-top: 20px;
+        font-size: 4.5vw;
+    }
+    #faqs-hero {
+        margin-top: 55px;
+    }
+    #faqs-header {
+        margin-top: -55px;
     }
 }
 @media screen and (max-width: 550px) {
     #footer-bar {
         grid-template-columns: repeat(3, 1fr);
+    }
+    #account p {
+        display: none;
+    }
+    #account {
+        display: block;
+        margin-right: 50%;
+    }
+    header {
+        grid-template-columns: 90px 4fr 1fr;
+    }
+    #menu-banner {
+        grid-template-columns: 1fr;
+    }
+    #menu-banner h1 {
+        text-align: center;
+    }
+    #account img {
+        margin-top: 50%;
+        margin-bottom: 30%;
+    }
+    #menu-grid {
+        row-gap: 0;
+    }
+    #hero-wrapper {
+        overflow: visible;
+    }
+    #hero-img {
+        width: 100%;
+        height: auto;
+    }
+    #hero-title {
+        font-size: 1.5em;
+    }
+    #wrapper {
+        grid-column: 2 / 12;
+    }
+    #rewards {
+        grid-column: 2 / 12;
+        text-align: center;
+    }
+    #rewards h2 {
+        font-size: 1.4em;
+    }
+    #faqs-hero {
+        margin-top: 90px;
+    }
+    #faqs-header {
+        margin-top: -90px;
     }
 }
