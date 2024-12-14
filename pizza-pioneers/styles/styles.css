@@ -378,6 +378,23 @@ h4 {
     #faqs-header {
         margin-top: -55px;
     }
+    #calzone {
+        grid-column: 1 / 5;
+        width: 80%;
+        justify-self: right;
+    }
+    #pasta {
+        grid-column: 5 / 9;
+        width: 80%;
+        justify-self: center;
+    }
+    #desserts {
+        grid-column: 9 / 13;
+        width: 80%;
+    }
+    #rewards p {
+        margin-bottom: 10%;
+    }
 }
 @media screen and (max-width: 550px) {
     #footer-bar {
@@ -431,5 +448,8 @@ h4 {
     }
     #faqs-header {
         margin-top: -90px;
+    }
+    #home-grid {
+        margin-bottom: 80px;
     }
 }
